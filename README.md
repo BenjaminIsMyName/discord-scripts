@@ -23,4 +23,6 @@ Sometimes, we need to make sure we don't get calls or messages from Discord, fro
    pyinstaller --noconsole --onefile --noupx --icon=app.ico app.py
    ```
 
+   You can remove the `--onefile` flag and use the default one-folder mode if you want the program to load faster. Recommended.
+
 1. **Warning**: do not rename or move the project folder. Otherwise, the packages might stop working.
